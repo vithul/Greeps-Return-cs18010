@@ -17,11 +17,7 @@ import java.util.List;
  * Finally, if the greep can see multiple opponent greeps, it will let
  * off a stink bomb.
  * 
- * This greep does not communicate with other greeps or the ship.
- * 
- * @author Davin McCall
- * @author Poul Henriksen
- * @version 1.0
+ * This greep does not communicate with other greeps or the ship
  */
 public class MyGreep extends Greep
 {
@@ -160,3 +156,4 @@ public class MyGreep extends Greep
         return "Kostas";
     }    
 }
+ 
