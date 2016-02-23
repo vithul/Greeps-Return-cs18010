@@ -1,3 +1,4 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
 import java.util.List;
 
 /**
@@ -81,7 +82,9 @@ public class MyGreep extends Greep
         }        
     }
 
-    
+    /**
+     * Is there any food here where we are? If so, try to load some!
+     */
     public void checkFood()
     {
         TomatoPile tomatoes = getTomatoes();
